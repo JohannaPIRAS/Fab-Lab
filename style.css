@@ -1,0 +1,642 @@
+body,
+html {
+    width: 100%;
+    font-size: 100%;
+}
+
+.logo_max {
+    width: 150px;
+    margin-top: -40px;
+}
+
+.logo_min {
+    height: 30px;
+}
+
+.navbar {
+    background-color: #b8a470!important;
+    height: 70px;
+}
+#nav1{ 
+    height: 35px;
+ }
+
+
+.titre {
+    padding-left: 25px;
+    color: white;
+    background-color: #b8a470;
+    margin: 0px;
+}
+
+.h2g2 {
+    font-size: 150%;
+    background-color: #b8a470;
+    margin: 0px;
+    color: #1a191a;
+    padding-left: 350px;
+    font-weight: bold;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.navTypo {
+    color: #1a191a;
+    font-size: 150%;
+    white-space: nowrap;
+}
+
+
+.navbtnperso {
+    width: 25%;
+    height: 50px;
+    background-color: #b8a470;
+    border: none;
+    border-radius: 0px;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+
+
+.navfull {
+    width: 200%;
+}
+
+@media (max-width: 990px) {
+    .h2g2 {
+
+        padding-left: 0px;
+    }
+    .logo_max {
+
+        margin-top: 0px;
+    }
+
+    .logo_min {
+        height: 25px
+    }
+
+    .navTypo {
+        font-size: 100%;
+    }
+
+    .navfull {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .h2g2 {
+        font-size: 130%;
+    }
+
+    .navTypo {
+        font-size: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo_min {
+        display: none;
+    }
+
+    .navbtnperso {
+        height: 30px;
+    }
+}
+
+.row {
+
+    margin-left: -8px;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boutonTaille {
+    height: 60px;
+}
+
+.wildWidth {
+    width: 100%;
+}
+
+.tuile {
+    width: 100%;
+}
+
+.nopad {
+    padding: 0px;
+}
+
+.modalMax {
+    height: 100%;
+}
+
+.imgModale {
+    margin-right: 15px;
+}
+
+.boutonModal {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.navfull {
+    width: 200%;
+}
+
+.visibleOnTab {
+    display: none;
+}
+
+.visibleOnDesc {
+    display: block;
+}
+
+.full {
+    height: 100%;
+}
+
+@media (max-width: 990px) {
+    .h2g2 {
+
+        padding-left: 0px;
+    }
+    .logo_max {
+
+        margin-top: 0px;
+    }
+
+    .logo_min {
+        height: 25px
+    }
+
+    .navTypo {
+        font-size: 100%;
+    }
+
+    .navfull {
+        width: 100%;
+    }
+
+    .visibleOnTab {
+        display: block;
+    }
+
+    .visibleOnDesc {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .h2g2 {
+        font-size: 130%;
+    }
+
+    .navTypo {
+        font-size: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo_min {
+        display: none;
+    }
+
+
+    .navbtnperso {
+        height: 30px;
+    }
+}
+
+.row {
+
+    margin-left: -8px;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.boutonTaille {
+    height: 60px;
+}
+
+.wildWidth {
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.card li {
+    background-color: #b8a470;
+    color: white;
+    font-weight: bold;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.card-header {
+    padding: 0px;
+}
+
+.card {
+    width: 100% !important;
+    border: none;
+}
+
+.noBorder,
+.card-header {
+    border: none;
+}
+
+.tiles {
+    padding: 2px;
+    text-align: left;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pad {
+    padding-top: 7px;
+}
+
+
+.card-header {
+    background-color: white;
+}
+
+.panel-heading {
+    padding: 5px;
+}
+
+.nav-link {
+
+    color: #1a191a;
+    background-color: #b8a470;
+    border-radius: 0px !important;
+    outline: 0;
+    border: solid;
+    border-width: 5px;
+    border-color: #b8a470;
+    display: block;
+    padding: 0px;
+    font-color: white;
+    border-style: outset;
+    border-color: #fefefe;
+    text-align: center;
+    border-width: 1px;
+}
+
+.tabula {
+    width: 100%;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+ul.nav-pills {
+    border-width: 2px;
+    border-color: #1a191a;
+    margin-top: -26px;
+    border-style: outset;
+    border-color: #fefefe;
+    text-align: center;
+    font-weight: bold;
+    border-width: 1px;
+}
+
+#home,
+#menu1,
+#menu2,
+#menu3,
+{
+    border: none;
+}
+
+.nav2 {
+    width: 24%;
+    white-space: nowrap;
+}
+
+.nav3 {
+    width: 4%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+.carou {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b8a470;
+    color: #1a191a;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.carouin {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 40px;
+    width: 40px;
+    margin-top: 100px;
+    border-radius: 100%;
+}
+
+.caroutxt {
+    padding: 15px;
+    padding-right: 50px;
+}
+
+#evenements nav,
+#presentation nav {
+    position: fixed;
+    margin-top: -20px;
+    background-color: #ffffff !important;
+    height: 50px;
+    
+}
+
+#schema img {
+    width: 445px;
+    height: 499px;
+    margin-left: 250px;
+}
+
+#mentions {
+    display: inline-grid;
+}
+
+#contacter {
+    display: inline-grid;
+}
+
+#graphique img {
+    display: inline-grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#texteresa {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+iframe {
+    margin: auto;
+    width: 100%;
+}
+
+#cotisation img {
+    width: 50%;
+    margin-left: 250px;
+}
+
+#boutondark a {
+    width: 50%;
+    margin-left: 250px;
+}
+
+#lock img {
+    width: 30%;
+    margin-left: 30px;
+}
+
+#simplon {
+    width: 100%;
+}
+
+#simplon2 {
+    width: 100%;
+    margin-left: 50%;
+}
+
+a:hover {
+    color: grey;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #b8a470;
+    border-style: solid;
+    border-size: 2px;
+}
+
+a {
+    color: #1a191a;
+    text-decoration: none;
+    background-color: #b8a470;
+}
+
+#image a {
+    display: inline-table;
+    width: 100%;
+}
+
+#grpimg {
+    display: inline-block;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#accueil {
+    text-align: center;
+    color: #1a191a;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#accueilimg {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#logoflame img {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    -webkit-animation: mymove 5s;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 5s;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+#logoflame img {
+    -webkit-animation-timing-function: linear;
+}
+
+
+
+/* Standard syntax */
+
+#logoflame img {
+    animation-timing-function: linear;
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 1200px;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 1200px;
+    }
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#horaire img {
+    width: 35%;
+    margin-left: 430px;
+    border-style: double;
+    border-color: #b8a470;
+}
+
+aside {
+    background: #b8a470;
+    position: fixed;
+    top: 135px;
+    right: 0;
+    width: 70px;
+    transition: all 1s;
+    border-color: #1a191a;
+    border-style: inset;
+    border-width: 5px;
+}
+
+aside:hover {
+    opacity: 1;
+    width: 400px;
+    display: inline-block;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+aside a {
+    font-size: 16px;
+}
+
+aside img {
+    border-width: 5px;
+    border-style: outset;
+    color: #ffffff;
+}
+
+aside #text_aside {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside #text_aside:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+#image_aside img{
+    margin-left: 25%;
+}
+#titre_aside{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#php_np{
+    margin-left: 250px;
+}
